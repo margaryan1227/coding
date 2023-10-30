@@ -1,0 +1,169 @@
+div.top-stories-slider {
+    display: flex;
+    justify-content: space-between;
+}
+div.top-story {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+img.story-image {
+    width: 100%;
+    height: 80%
+}
+img.play-icon {
+    height: 40px;
+    width: 40px;
+}
+div.story {
+    height: 20%;
+    color: white;
+    padding: 0;
+    margin:  10px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+div.main-page {
+    display: flex;
+    justify-content: center;
+}
+div.post-block {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+}
+div.text-block {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 30%;
+}
+div.text-block-section {
+    margin-top: 50px;
+    height: 25%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+p.story-text {
+    font-size: 20px;
+    color: #6A6666;
+}
+div.post-slider {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+div.post-comment-section {
+    position: relative;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+div.post-image-div {
+    width: 24%;
+    /*height: 15%;*/
+}
+img.post-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+h1.post-heading {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 0;
+}
+p.post-read-more {
+    position: absolute;
+    right: 0;
+}
+p.post-comment {
+    position: absolute;
+    left: 0;
+}
+#cinema-story {
+    background-color: #55ACEE;
+}
+#travel-story {
+    background-color: #F78F1D;
+}
+#television-story {
+    background-color: #EB098D;
+}
+#top-story-heading-left {
+    width: 60%;
+    background-color: #5161AB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+div.top-story-bar {
+    height: 15%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+div.top-story-bar-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 33%;
+}
+div.top-story-posts {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+div.top-story-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.post-component-heading {
+    margin: 0;
+    color: #55ACEE;
+}
+div.post-component {
+    margin-top: 15px;
+}
+p.post-component-text {
+    margin: 0;
+    font-size: 12px;
+}
+#bar-fashion {
+    background-color: #EB098D;
+}
+#bar-cinema {
+    background-color: #F78F1D;
+}
+#bar-television {
+    background-color: #55ACEE;
+}
+div.post {
+    margin-bottom: 30px;
+}
+div.post-component-image-div {
+    width: 40%;
+    height: 100%;
+    margin-right: 10px;
+}
+img.post-component-image {
+    height: 100%;
+    width: 100%;
+}
+div.also-like-heading {
+    background-color: #5161AB;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
